@@ -1,5 +1,5 @@
 @extends('main')
-
+@section('title', 'Contact')
 @section('content')
 
    <div class="p-5 mb-4 bg-light rounded-3">

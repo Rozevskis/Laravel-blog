@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('contact', 'App\Http\Controllers\PagesController@getContact');
+Route::get('about', 'App\Http\Controllers\PagesController@getAbout' );
+Route::get('/','App\Http\Controllers\PagesController@getIndex');
 
-Route::get('/', function () {
-    return view('welcome');
-});

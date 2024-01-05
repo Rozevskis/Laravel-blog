@@ -35,7 +35,7 @@
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
 
                     <li class="nav-item">
-                        <a class="nav-link active " href="#" aria-current="page">Home</a
+                        <a class="nav-link active " href="/" aria-current="page">Home</a
                         >
                     </li>
                     <li class="nav-item">
@@ -79,6 +79,8 @@
 
    </div>
    
+   <hr>
+   <p class="text-center"> Made by Kristofers</p>
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

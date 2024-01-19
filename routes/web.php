@@ -15,4 +15,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('contact', 'App\Http\Controllers\PagesController@getContact');
 Route::get('about', 'App\Http\Controllers\PagesController@getAbout' );
 Route::get('/','App\Http\Controllers\PagesController@getIndex');
+Route::resource('posts', 'App\Http\Controllers\PostController');
 
